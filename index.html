@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Button Clicker</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+    }
+    button {
+        padding: 10px 20px;
+        font-size: 16px;
+        cursor: pointer;
+    }
+    #log {
+        margin-top: 20px;
+    }
+</style>
+</head>
+<body>
+    <h1>Button Clicker</h1>
+    <button id="clickBtn">Click me!</button>
+    <div id="log"></div>
+
+    <script>
+        const clickBtn = document.getElementById('clickBtn');
+        const logDiv = document.getElementById('log');
+
+        let clickCount = 0;
+
+        clickBtn.addEventListener('click', () => {
+            clickCount++;
+            logDiv.innerHTML += `<p>Button clicked ${clickCount} time(s).</p>`;
+            // Log event to console
+            console.log(`Button clicked ${clickCount} time(s).`);
+        });
+    </script>
+</body>
+</html>
