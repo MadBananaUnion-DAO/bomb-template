@@ -1,6 +1,5 @@
-/* Global Styles */
 body {
-    font-family: 'Survivant', sans-serif;
+    font-family: Survivant, sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -10,9 +9,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0 20px;
+    margin: 10;
+    padding: 10px;
 }
 
 .button {
@@ -23,40 +21,20 @@ h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
     transition: background-color 0.3s ease;
 }
-
-.button:hover {
-    opacity: 0.8;
+.top-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+    width: 20px;
+    height: auto;
+    text-align: center;
 }
-
-.highlight {
-    color: #ff9900;
-}
-
-/* Specific Styles */
 .centered-buttons {
     display: flex;
     justify-content: center;
 }
 
-.overlay {
-    position: relative;
-}
-
-.overlay .container {
-    position: relative;
-    z-index: 1;
-}
-
-.top-buttons {
-    display: flex;
-    justify-content: center;
-}
-
-.top-buttons .button {
-    margin: 0 10px;
-    width: 150px;
-    height: auto;
-    display: inline-flex;
-    align-items: center;
-    text-align: center;
+.button:hover {
+    opacity: 0.5;
+    background-color: gray;
 }
