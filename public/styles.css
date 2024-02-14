@@ -1,65 +1,62 @@
-    <style>
-        body {
-            font-family: Survivant, survivant.tff;
-            margin: 0;
-            padding: 0;
-            background-image: url('512x512-bomb-banner-element.png');
-            background-size: cover;
-            background-position: center;
-            background-repeat: no-repeat;
-            text-align: center;
-        }
-        .overlay {
-            background-color: rgba(0, 0, 0, 0.7);
-            padding: 20px;
-            color: #fff000    ;
-        }
-        .container {
-            max-width: 800px;
-            margin: 0 auto;
-        }
-        h1, h2 {
-            text-align: center;
-        }
-        p {
-            line-height: 1.6;
-        }
-        ul {
-            list-style-type: none;
-            padding: 0;
-        }
-        li::before {
-            content: "•";
-            color: #28a745;
-            display: inline-block;
-            width: 1em;
-            margin-left: -1em;
-        }
-        .highlight {
-            color: #007bff;
-            font-weight: bold;
-        }
-        .button {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 5px;
-            transition: background-color 0.3s ease;
-            margin-top: 10px;
-        }
-        .button:hover {
-            background-color: #0056b3;
-        }
-        .centered-buttons {
-            text-align: center;
-            margin-top: 20px;
-        }
-        .centered-buttons .button {
-            margin-right: 10px;
-        }
-        .centered-buttons .button:last-child {
-            margin-right: 0;    
-        }
-    </style>  
+/* Global Styles */
+body {
+    font-family: 'Survivant', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    opacity: 0.8;
+}
+
+.highlight {
+    color: #ff9900;
+}
+
+/* Specific Styles */
+.centered-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.overlay {
+    position: relative;
+}
+
+.overlay .container {
+    position: relative;
+    z-index: 1;
+}
+
+.top-buttons {
+    display: flex;
+    justify-content: center;
+}
+
+.top-buttons .button {
+    margin: 0 10px;
+    width: 150px;
+    height: auto;
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+}
