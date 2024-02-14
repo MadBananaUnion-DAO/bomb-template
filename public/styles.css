@@ -41,22 +41,29 @@ body {
     margin: 0;
     padding: 0;
 }
-.bomb-button {
-    background-color: #000000; 
-    font-size: 30px; 
-    line-height: 30px; 
-    padding: 15px; 
-    border-radius: 50px; 
-    font-family: Survivant,; 
-    font-weight: normal; 
-    text-decoration: overline solid rgb(68, 68, 68);
-    font-style: normal; 
-    font-variant: normal; 
-    text-transform: none; 
-    box-shadow: rgba(77, 77, 77, 0.92) 0px 1px 9px 11px; 
-    border: 2px solid rgb(28, 110, 164); 
-    display: inline-block;
+.bomb-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* This ensures the button is vertically centered on the page */
 }
+.bomb-button {
+  background-color: #000000;
+  font-size: 30px;
+  line-height: 30px;
+  padding: 15px;
+  border-radius: 50px;
+  font-family: Survivant, Arial, sans-serif; /* Added fallback fonts */
+  font-weight: normal;
+  text-decoration: overline solid rgb(68, 68, 68);
+  font-style: normal;
+  font-variant: normal;
+  text-transform: none;
+  box-shadow: rgba(77, 77, 77, 0.92) 0px 1px 9px 11px;
+  border: 2px solid rgb(28, 110, 164);
+  display: inline-block;
+}
+
 .bomb-button:hover {
 background: #ffff00; 
 }
