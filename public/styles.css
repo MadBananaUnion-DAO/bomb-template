@@ -93,8 +93,8 @@ background: #00ff00;
   display: inline-block;
 }
 .block-button:hover {
-  background: #ffff00;
+background: #ffff00;
 }
 .block-button:active {
-  background: #ff0000;
+background: #ff0000;
 }
