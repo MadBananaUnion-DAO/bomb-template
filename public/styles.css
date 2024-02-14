@@ -5,36 +5,16 @@ body {
     padding: 0;
 }
 
-/* Headings Styles */
-h1, h2, h3, h4, h5, h6 {
-    margin-top: 0;
-}
-
-/* Container Styles */
-.container {
-    margin: 10px;
-    padding: 10px;
-}
-
 /* Button Styles */
 .button {
     text-decoration: none;
     color: white;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 5px;
     font-size: 16px;
-    transition: background-color 0.3s ease;
 }
 
-.centered-buttons {
-    width: 180px;
-    height: auto;
-    display: inline-flex;
-    align-items: center;
-    text-align: center;
-}
-
-.top-buttons {
+.top-button {
     display: flex;
     justify-content: center;
     margin: 10px;
@@ -42,15 +22,11 @@ h1, h2, h3, h4, h5, h6 {
 .button {
     text-decoration: none;
     color: white;
-    padding: 10px 20px;
+    padding: 10px;
     border-radius: 5px;
     font-size: 16px;
-    transition: background-color 0.3s ease;
 }
-.centered-button:hover {
-    opacity: 0.25;
-    background-color: gray;
-}
+
 .top-button:hover {
     opacity: 0.25;
     background-color: gray;
