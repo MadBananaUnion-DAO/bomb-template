@@ -62,6 +62,7 @@ body {
   border: 2px solid rgb(28, 110, 164);
   display: inline-block;
 }
+
 .bomb-button:hover {
 background: #ffff00; 
 }
@@ -74,6 +75,7 @@ background: #00ff00;
   justify-content: right;
   align-items: right;
 }
+
 .block-button {
   background-color: #000000;
   font-size: 30px;
@@ -95,5 +97,4 @@ background: #00ff00;
 }
 .block-button:active {
   background: #ff0000;
-  
 }
