@@ -1,277 +1,96 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>BananaBombers - active clicker game -- Offical MadMoneyLab GAME</title>
-<style>
-    body {
-        font-family: "survivant", survivant.ttf;
-        text-align: center;
-    }
-    bomb-button {
-        padding: 10px 20px;
-        font-size: 24px;
-        cursor: bomb;
-    }
-    block-button {
-        padding: 10px 20px;
-        font-size: 24px;
-        cursor: square;
-    }
-    explode-button {
-        padding: 10px 20px;
-        font-size: 32px;
-        cursor: pointer;
-    }
-    log {
-        margin-top: 20px;
-    }
-</style>
-<body>
-    <h1>Button Clicker</h1>
-    <button id="clickBtn">Click me!</button>
-    <div id="log"></div>
-    <script>
-        const clickBtn = document.getElementById('clickBtn');
-        const logDiv = document.getElementById('log');
-
-        let clickCount = 0;
-
-        clickBtn.addEventListener('click', () => {
-            clickCount++;
-            logDiv.innerHTML += `<p>Button clicked ${clickCount} time(s).</p>`;
-            // Log event to console
-            console.log(`Button clicked ${clickCount} time(s).`);
-        });
-    </script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BananaBombBattles-inc: Discord Clicking Game</title>
     <style>
-        .navbar-desc {
-            font-family: 'Roboto', sans-serif;
-            padding-top: 12px;
-            padding-right: 15px;
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
         }
-
-        .page-header {
-            padding: 10px;
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
         }
-
-        .show-inline {
-            background-color: #f0ebeb;
+        h1, h2 {
+            text-align: center;
+        }
+        p {
+            line-height: 1.6;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        li::before {
+            content: "•";
+            color: #28a745;
             display: inline-block;
-            padding: 2px 5px 0 5px;
-            margin: 2px;
-            border: 2px solid #DDDDDDFF;
-            border-radius: 5px;
-        }
-
-        .filters-checkbox {
-            border-radius: 5px;
-            height: 31px;
-            color: white;
-        }
-
-        .filters-checkbox input[type="checkbox"] {
-            display: none;
-        }
-
-        .filters-checkbox input[type="checkbox"]+.label-text {
-            cursor: pointer !important;
-            -webkit-user-select: none;
-            -moz-user-select: none;
-            -ms-user-select: none;
-            user-select: none;
-        }
-
-        .filters-checkbox input[type="checkbox"]+.label-text:before {
-            content: "\f096";
-            font-family: "FontAwesome";
-            font-style: normal;
-            font-weight: normal;
-            font-variant: normal;
-            text-transform: none;
-            line-height: 1;
-            font-size: 18px;
-            -webkit-font-smoothing: antialiased;
             width: 1em;
+            margin-left: -1em;
+        }
+        .highlight {
+            color: #007bff;
+            font-weight: bold;
+        }
+        .button {
             display: inline-block;
-            margin-right: 2px;
-            vertical-align: -2px;
-        }
-
-        .filters-checkbox input[type="checkbox"]:checked+.label-text:before {
-            content: "\f14a";
+            padding: 10px 20px;
+            background-color: #007bff;
             color: #fff;
-            animation: tick 180ms ease-in;
-        }
-
-        .filters-checkbox input[type="checkbox"]:disabled+.label-text {
-            cursor: not-allowed !important;
-        }
-
-        .filters-checkbox input[type="checkbox"]:disabled+.label-text:before {
-            content: "\f0c8";
-            color: #ccc;
-        }
-
-        .input-group, .input-group-text {
-            width: 100%;
-        }
-
-        .input-group-prepend {
-            width: 30%;
-        }
-
-        .sub-faucet-radio {
-            background-color: #EAEAEAFF;
-            border: 2px solid #C4C4C4FF;
+            text-decoration: none;
             border-radius: 5px;
-            padding: 0 5px 2px 25px;
-            margin-right: 5px;
-            margin-top: 5px;
+            transition: background-color 0.3s ease;
         }
-
-        .sub-faucet-radio label::before {
-            margin: 0 0 2px 5px;
-        }
-
-        .sub-faucet-radio label::after {
-            margin: 0 0 2px 5px;
+        .button:hover {
+            background-color: #0056b3;
         }
     </style>
 </head>
-        <br><br>
-        <li><a href="https://info.madbananaunion.com/">info-page</a></li>
-        <li><a href="https://blog.madbananaunion.com/">blog-page</a></li>
-        <li><a href="https://tree.madbananaunion.com/">tree-page</a></li>
-        <li><a href="https://bomb.madbananaunion.com/">bomb-page</a></li>
-        <li><a href="https://post.madbananaunion.com/">post-page</a></li>
-        <li><a href="https://docs.madbananaunion.com/">docs-page</a></li>
-        <li><a href="https://faucet.madbananaunion.com/">faucet-page</a></li>
-        <li><a href="https://merch.madbananaunion.com/">merch-page</a></li>
-        <br><br>
 <body>
-    <div class="container-fluid">
-        <!-- Navbar Section -->
-        <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-            <div class="navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link navbar-desc" href="#">Link 0</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link navbar-desc" href="#">Link 1</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link navbar-desc" href="#">Link 2</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link navbar-desc" href="#">Link 3</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link navbar-desc" href="#">Link 4</a>
-                    </li>
-                </ul>
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link navbar-desc" href="#">Link 5</a>
-                    </li>
-                </ul>
-
-            </div>
-        </nav>
-
-        <!-- Page Header Section -->
-        <div class="page-header">
-            <h1>Page Header 0</h1>
-            <h2>Page Header 1</h2>
-            <h3>Page Header 2</h3>
-            <h4>Page Header 3</h4>
-            <h5>Page Header 4</h5>
-            <h6>Page Header 5</h6>
+    <div class="container">
+        <h1>BananaBombBattles-inc: Discord Clicking Game</h1>
+        
+        <div class="overview">
+            <h2>Overview:</h2>
+            <p>BananaBombBattles-inc presents an exciting clicking game set in the vibrant world of Discord. Join the battle as a "<span class="highlight">Bomber</span>" or a "<span class="highlight">Blocker</span>" and compete against other players to accumulate points and emerge victorious! Strategic decisions, teamwork, and resource management are key to success in this fast-paced game.</p>
         </div>
 
-        <!-- Inline Show Section -->
-        <div class="show-inline">Inline Show 0 </div>
-        <div class="show-inline">Inline Show 1 </div>
-        <div class="show-inline">Inline Show 2 </div>
-        <div class="show-inline">Inline Show 3 </div>
-        <div class="show-inline">Inline Show 4 </div>
-        <div class="show-inline">Inline Show 5 </div>
-        <div class="show-inline">Inline Show 6 </div>
-        <div class="show-inline">Inline Show 7 </div>
-        <div class="show-inline">Inline Show 8 </div>
-        <div class="show-inline">Inline Show 9 </div>
-        <div class="show-inline">Inline Show 10 </div>
-
-
-
-        <!-- Filters Checkbox Section -->
-        <div class="filters-checkbox">
-            <input type="checkbox" id="checkbox1">
-            <label class="label-text" for="checkbox1">Checkbox Label</label>
+        <div class="game-mechanics">
+            <h2>Game Mechanics:</h2>
+            <ul>
+                <li>Players choose roles: "<span class="highlight">Bomber</span>" or "<span class="highlight">Blocker</span>".</li>
+                <li>180-second battle duration.</li>
+                <li>Perform actions using <span class="highlight">$BOMB</span> currency.</li>
+                <li>Bombers bomb targets; Blockers defend against attacks.</li>
+                <li>Earn <span class="highlight">$BOMB</span> for successful actions.</li>
+                <li>Limited actions per player.</li>
+            </ul>
         </div>
 
-        <!-- Input Group Section -->
-        <div class="input-group">
-            <div class="input-group-prepend">
-                <span class="input-group-text">Prepend</span>
-            </div>
-            <input type="text" class="form-control" placeholder="user-input">
-        <div class="input-group-prepend">
-                <span class="input-group-text">Input Group 1</span>
-            </div>
-            <input type="text" class="form-control" placeholder="user-input">
-            <div class="input-group-prepend">
-                <span class="input-group-text">Input Group 2</span>
-            </div>
-            <input type="text" class="form-control" placeholder="user-input">
-            <div class="input-group-prepend">
-                <span class="input-group-text">Input Group 3</span>
-            </div>
-            <input type="text" class="form-control" placeholder="user-input">
-            <div class="input-group-prepend">
-                <span class="input-group-text">Input Group 4</span>
-            </div>
-            <input type="text" class="form-control" placeholder="user-input">
+        <!-- Other sections like Currency System, Minimum Player Requirement, Endgame Conditions, How to Play, Get Ready to Click! go here -->
+
+        <div class="how-to-play">
+            <h2>How to Play:</h2>
+            <ol>
+                <li>Join the BananaBombBattles-inc Discord server.</li>
+                <li>Choose your role: Bomber or Blocker.</li>
+                <li>Collect <span class="highlight">$BOMB</span> currency every 6 hours.</li>
+                <li>Participate in battles and earn points for your team.</li>
+                <li>Strategize, click, and dominate to emerge victorious!</li>
+            </ol>
+            <p>Ready to join the battle? Click below to get started!</p>
+            <a href="#" class="button">Join Now</a>
         </div>
 
-        <!-- Sub Faucet Radio Section -->
-        <div class="sub-faucet-radio">
-            <input type="radio" id="radio1" name="sub-faucet">
-            <label for="radio1">Radio 1</label>
-            <!-- Add more radio items as needed -->
-        </div>
-        <div class="sub-faucet-radio">
-            <input type="radio" id="radio1" name="sub-faucet">
-            <label for="radio1">Radio 2</label>
-            <!-- Add more radio items as needed -->
-        </div>        
-        <div class="sub-faucet-radio">
-            <input type="radio" id="radio1" name="sub-faucet">
-            <label for="radio1">Radio 3</label>
-            <!-- Add more radio items as needed -->
-        </div>
-                <div class="sub-faucet-radio">
-            <input type="radio" id="radio1" name="sub-faucet">
-            <label for="radio1">Radio 4</label>
-            <!-- Add more radio items as needed -->
-        </div>
-                <div class="sub-faucet-radio">
-            <input type="radio" id="radio1" name="sub-faucet">
-            <label for="radio1">Radio 5</label>
-            <!-- Add more radio items as needed -->
+        <div class="footer">
+            <p>Get Ready to Click! BananaBombBattles-inc offers a thrilling clicking game experience where every click counts. Join the battle, unleash your skills, and claim victory in the ultimate Discord showdown!</p>
         </div>
     </div>
-    <!-- Bootstrap JS (assuming you are using Bootstrap) -->
-    <script src='https://api.monkeymike.xyz'>
 </body>
 </html>
+    
