@@ -43,7 +43,7 @@ body {
 }
 .bomb-button-container {
   display: flex;
-  justify-content: center;
+  justify-content: left;
   align-items: left;
 }
 .bomb-button {
@@ -71,7 +71,7 @@ background: #00ff00;
 
 .block-button-container {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: right;
 }
 .block-button {
