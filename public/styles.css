@@ -34,23 +34,3 @@ background: #107503; }
 .block {
     background-color: orange;
 }
-
-.shoot {
-    background-color: red;
-}
-
-.shield {
-    background-color: grey;
-}
-
-.boost {
-    background-color: green;
-}
-
-.pew-pew {
-    background-color: blue;
-}
-
-.nuke {
-    background-color: purple;
-}
