@@ -1,38 +1,55 @@
+/* Global Styles */
 body {
     font-family: 'Survivant', sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Headings Styles */
 h1, h2, h3, h4, h5, h6 {
-    margin-top: 1;
+    margin-top: 0;
 }
 
+/* Container Styles */
 .container {
-    margin: 1px;
+    margin: 10px;
     padding: 10px;
 }
 
+/* Button Styles */
 .button {
-    padding: 10px;
-    border-radius: 10px;
-    font-size: 24px;
-    transition: background-color 0.3s ease;
-    width: 180px;
-}
-.button a {
-    color: white;
     text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
 }
 
+/* Button Hover Styles */
 .button:hover {
     opacity: 0.5;
     background-color: gray;
 }
 
-.top-buttons {
+/* Top Buttons and Centered Buttons Container Styles */
+.top-buttons, .centered-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
+}
+
+/* Button Element Styles */
+.top-buttons .button, .centered-buttons .button {
+    width: 180px; /* Adjust the width here */
+    height: auto;
     display: inline-flex;
     align-items: center;
     text-align: center;
-    width: 100px
+}
+
+/* Anchor Tag Styles (Text Color and Underline) */
+.button a {
+    color: white;
+    text-decoration: none;
 }
