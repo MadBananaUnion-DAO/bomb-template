@@ -61,7 +61,7 @@ body {
 background: #FFA500; 
 }
 .bomb-button:active {
-background: #000000; 
+background: #00ff00; 
 }
 
 .block-button {
@@ -81,8 +81,10 @@ background: #000000;
     display: inline-block;
 }
 .block-button:hover {
-background: #000000; 
+  background: #000000;
+  
 }
 .block-button:active {
-background: #000000;
+  background: #ff0000;
+  
 }
