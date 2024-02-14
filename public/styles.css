@@ -45,7 +45,6 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* This ensures the button is vertically centered on the page */
 }
 .bomb-button {
   background-color: #000000;
@@ -74,7 +73,6 @@ background: #00ff00;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh; /* This ensures the button is vertically centered on the page */
 }
 .block-button {
   background-color: #000000;
