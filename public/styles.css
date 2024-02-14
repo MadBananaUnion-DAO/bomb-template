@@ -9,21 +9,22 @@ body {
     line-height: 30px; 
     padding: 15px; 
     border-radius: 50px; 
-    font-family: Georgia, serif; 
+    font-family: Survivant,; 
     font-weight: normal; 
     text-decoration: overline solid rgb(68, 68, 68);
     font-style: normal; 
     font-variant: normal; 
     text-transform: none; 
-    background-image: linear-gradient(rgb(100, 164, 80) 0%, rgb(78, 203, 62) 50%, rgb(16, 117, 3) 100%); 
     box-shadow: rgba(77, 77, 77, 0.92) 0px 1px 9px 11px; 
     border: 2px solid rgb(28, 110, 164); 
     display: inline-block;
 }
 .bomb-button:hover {
-background: #64A450; }
+background: #64A450; 
+}
 .bomb-button:active {
-background: #107503; }
+background: #107503; 
+}
 
 .block-button {
     background-color: #FFA500; 
@@ -31,18 +32,19 @@ background: #107503; }
     line-height: 30px; 
     padding: 15px; 
     border-radius: 50px; 
-    font-family: Georgia, serif; 
+    font-family: Survivant; 
     font-weight: normal; 
     text-decoration: overline solid rgb(68, 68, 68);
     font-style: normal; 
     font-variant: normal; 
     text-transform: none; 
-    background-image: linear-gradient(rgb(100, 164, 80) 0%, rgb(78, 203, 62) 50%, rgb(16, 117, 3) 100%); 
     box-shadow: rgba(77, 77, 77, 0.92) 0px 1px 9px 11px; 
     border: 2px solid rgb(28, 110, 164); 
     display: inline-block;
 }
 .block-button:hover {
-background: #64A450; }
+background: #64A450; 
+}
 .block-button:active {
-background: #107503; }
+background: #107503; 
+}
