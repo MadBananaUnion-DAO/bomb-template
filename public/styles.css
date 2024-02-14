@@ -4,7 +4,7 @@ body {
     padding: 0;
 }
 .bomb-button {
-    color: #000000; 
+    background-color: #000000; 
     font-size: 30px; 
     line-height: 30px; 
     padding: 15px; 
@@ -26,7 +26,7 @@ background: #64A450; }
 background: #107503; }
 
 .block-button {
-    color: #FFA500; 
+    background-color: #FFA500; 
     font-size: 30px; 
     line-height: 30px; 
     padding: 15px; 
