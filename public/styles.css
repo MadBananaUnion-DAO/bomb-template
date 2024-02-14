@@ -20,6 +20,10 @@ h1, h2, h3, h4, h5, h6 {
     transition: background-color 0.3s ease;
     width: 180px;
 }
+.button a {
+    color: white;
+    text-decoration: none;
+}
 
 .button:hover {
     opacity: 0.5;
@@ -31,8 +35,4 @@ h1, h2, h3, h4, h5, h6 {
     align-items: center;
     text-align: center;
     width: 100px
-}
-.button a {
-    color: white;
-    text-decoration: none;
 }
