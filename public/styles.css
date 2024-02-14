@@ -1,45 +1,15 @@
-/* Global Styles */
 body {
     font-family: 'Survivant', sans-serif;
     margin: 0;
     padding: 0;
 }
 
-/* Button Styles */
 .button {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-.top-button {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-}
-.button {
-    text-decoration: none;
-    color: white;
-    padding: 10px;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-.top-button:hover {
-    opacity: 0.25;
-    background-color: gray;
-}
-.button:hover {
-    opacity: 0.75;
-    background-color: gray;
-}
-
-.button-icon {
-    vertical-align: middle;
-    margin-right: 5px;
-}
+color: rgb(0, 0, 0); font-size: 30px; line-height: 30px; padding: 15px; border-radius: 50px; font-family: Georgia, serif; font-weight: normal; text-decoration: none; font-style: normal; font-variant: normal; text-transform: none; background-image: linear-gradient(rgb(100, 164, 80) 0%, rgb(78, 203, 62) 50%, rgb(16, 117, 3) 100%); box-shadow: rgba(77, 77, 77, 0.92) 0px 1px 9px 11px; border: 2px solid rgb(28, 110, 164); display: inline-block;}
+.myButton:hover {
+background: #64A450; }
+.myButton:active {
+background: #107503; }
 
 .bomb {
     background-color: black;
@@ -69,3 +39,4 @@ body {
     background-color: purple;
 }
 
+box-shadow: 0px 1px 9px 11px rgba(77,77,77,0.92);
