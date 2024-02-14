@@ -58,7 +58,7 @@ body {
     display: inline-block;
 }
 .bomb-button:hover {
-background: #FFA500; 
+background: #ffff00; 
 }
 .bomb-button:active {
 background: #00ff00; 
@@ -81,7 +81,7 @@ background: #00ff00;
     display: inline-block;
 }
 .block-button:hover {
-  background: #000000;
+  background: #ffff00;
   
 }
 .block-button:active {
