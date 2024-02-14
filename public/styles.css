@@ -3,8 +3,8 @@ body {
     margin: 0;
     padding: 0;
 }
-.button {
-    color: rgb(0, 0, 0); 
+.bomb-button {
+    color: #000000; 
     font-size: 30px; 
     line-height: 30px; 
     padding: 15px; 
@@ -20,13 +20,29 @@ body {
     border: 2px solid rgb(28, 110, 164); 
     display: inline-block;
 }
-.button:hover {
+.bomb-button:hover {
 background: #64A450; }
-.button:active {
+.bomb-button:active {
 background: #107503; }
-.bomb {
-    background-color: black;
+
+.block-button {
+    color: #FFA500; 
+    font-size: 30px; 
+    line-height: 30px; 
+    padding: 15px; 
+    border-radius: 50px; 
+    font-family: Georgia, serif; 
+    font-weight: normal; 
+    text-decoration: overline solid rgb(68, 68, 68);
+    font-style: normal; 
+    font-variant: normal; 
+    text-transform: none; 
+    background-image: linear-gradient(rgb(100, 164, 80) 0%, rgb(78, 203, 62) 50%, rgb(16, 117, 3) 100%); 
+    box-shadow: rgba(77, 77, 77, 0.92) 0px 1px 9px 11px; 
+    border: 2px solid rgb(28, 110, 164); 
+    display: inline-block;
 }
-.block {
-    background-color: orange;
-}
+.block-button:hover {
+background: #64A450; }
+.block-button:active {
+background: #107503; }
