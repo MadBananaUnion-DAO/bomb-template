@@ -26,30 +26,70 @@ h1, h2, h3, h4, h5, h6 {
     transition: background-color 0.3s ease;
 }
 
-/* Button Hover Styles */
-.button:hover {
-    opacity: 0.5;
-    background-color: gray;
-}
-
-/* Top Buttons and Centered Buttons Container Styles */
-.top-buttons, .centered-buttons {
-    display: flex;
-    justify-content: center;
-    margin: 10px;
-}
-
-/* Button Element Styles */
-.top-buttons .button, .centered-buttons .button {
-    width: 180px; /* Adjust the width here */
+.centered-buttons {
+    width: 180px;
     height: auto;
     display: inline-flex;
     align-items: center;
     text-align: center;
 }
 
-/* Anchor Tag Styles (Text Color and Underline) */
-.button a {
-    color: white;
-    text-decoration: none;
+.top-buttons {
+    display: flex;
+    justify-content: center;
+    margin: 10px;
 }
+.button {
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+.centered-button:hover {
+    opacity: 0.25;
+    background-color: gray;
+}
+.top-button:hover {
+    opacity: 0.25;
+    background-color: gray;
+}
+.button:hover {
+    opacity: 0.75;
+    background-color: gray;
+}
+
+.button-icon {
+    vertical-align: middle;
+    margin-right: 5px;
+}
+
+.bomb {
+    background-color: black;
+}
+
+.block {
+    background-color: orange;
+}
+
+.shoot {
+    background-color: red;
+}
+
+.shield {
+    background-color: grey;
+}
+
+.boost {
+    background-color: green;
+}
+
+.pew-pew {
+    background-color: blue;
+}
+
+.nuke {
+    background-color: purple;
+}
+
