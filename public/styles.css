@@ -20,7 +20,7 @@ body {
     display: inline-block;
 }
 .bomb-button:hover {
-background: #000000; 
+background: #FFA500; 
 }
 .bomb-button:active {
 background: #000000; 
