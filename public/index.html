@@ -13,6 +13,7 @@
             background-size: cover;
             background-position: center;
             background-repeat: no-repeat;
+            text-align: center;
         }
         .overlay {
             background-color: rgba(0, 0, 0, 0.7);
@@ -52,13 +53,29 @@
             text-decoration: none;
             border-radius: 5px;
             transition: background-color 0.3s ease;
+            margin-top: 10px;
         }
         .button:hover {
             background-color: #0056b3;
         }
+        .centered-buttons {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .centered-buttons .button {
+            margin-right: 10px;
+        }
+        .centered-buttons .button:last-child {
+            margin-right: 0;
+        }
     </style>
 </head>
 <body>
+    <div class="centered-buttons">
+        <a href="#" class="button" style="background-color: black;"><img src="bomb.png" alt="Bomb" style="vertical-align: middle; margin-right: 5px;">Bomb</a>
+        <a href="#" class="button" style="background-color: orange;"><img src="block.png" alt="Block" style="vertical-align: middle; margin-right: 5px;">Block</a>
+    </div>
+
     <div class="overlay">
         <div class="container">
             <h1>BananaBombBattles-inc: Discord Clicking Game</h1>
@@ -92,7 +109,7 @@
                     <li>Strategize, click, and dominate to emerge victorious!</li>
                 </ol>
                 <p>Ready to join the battle? Click below to get started!</p>
-                <a href="#" class="button">Join Now</a>
+                <a href="#" class="button">Get Bombed</a>
             </div>
 
             <div class="footer">
