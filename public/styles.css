@@ -20,10 +20,10 @@ body {
     display: inline-block;
 }
 .bomb-button:hover {
-background: #64A450; 
+background: #000000; 
 }
 .bomb-button:active {
-background: #107503; 
+background: #000000; 
 }
 
 .block-button {
@@ -43,8 +43,8 @@ background: #107503;
     display: inline-block;
 }
 .block-button:hover {
-background: #64A450; 
+background: #000000; 
 }
 .block-button:active {
-background: #107503; 
+background: #000000;
 }
