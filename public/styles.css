@@ -1,3 +1,41 @@
+h1 {
+  font-size: 2.5em;
+  font-weight: bold;
+  color: #333;
+}
+
+h2 {
+  font-size: 2em;
+  font-weight: bold;
+  color: #555;
+}
+
+h3 {
+  font-size: 1.8em;
+  font-weight: bold;
+  color: #777;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #999;
+}
+
+/* Styling for h5 */
+h5 {
+  font-size: 1.2em;
+  font-weight: bold;
+  color: #aaa;
+}
+
+h6 {
+  font-size: 1em;
+  font-weight: bold;
+  color: #bbb;
+}
+
+
 body {
     font-family: 'Survivant', sans-serif;
     margin: 0;
