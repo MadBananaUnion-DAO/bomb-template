@@ -1,0 +1,2 @@
+calculates the successful bombs of the bomber team 
++1 point for bombing the target
