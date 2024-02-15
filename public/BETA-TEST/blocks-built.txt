@@ -1,2 +1,2 @@
-calculates the successful bombs of the bomber team 
-+1 point for bombing the target
+calculates the successful blockss of the bombers
++1 point for blocking a live bomb
