@@ -7,7 +7,7 @@ body {
     background-color: #ecf0f1;
     color: #333333;
     /* Additional styling as needed */
-    background-image: url('standard-body-bg.jpg'); /* Replace 'standard-body-bg.jpg' with the actual path to your image */
+    background-image: url('grey-tree.gif'); /* Replace 'standard-body-bg.jpg' with the actual path to your image */
 }
 
 .dark-body {
