@@ -1,1 +1,29 @@
-
+"game_name": "Banana Bombs",
+  "teams": [
+    {
+      "name": "Bombers",
+      "score": 0,
+      "users": []
+    },
+    {
+      "name": "Blockers",
+      "score": 0,
+      "users": []
+    }
+  ],
+  "schedule": {
+    "daily_reset_time_utc": "12:00",
+    "last_reset_date": "2024-02-23",
+    "last_reset_successful": false
+  },
+  "actions_required": {
+    "login_required": true,
+    "button_click_required": true
+  },
+  "rules": {
+    "points_per_click": 1,
+    "time_window": "24 hours",
+    "time_window_utc_start": "12:00",
+    "time_window_utc_end": "12:00"
+  }
+}
