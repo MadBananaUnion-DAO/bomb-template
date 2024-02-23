@@ -1,47 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BananaBombeers by MadBananaUnion</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>BananaBombers - Click Battle</h1>
-    </header>
+/* General styles */
+body {
+    margin: 0;
+    padding: 0;
+}
 
-    <section id="signup" class="section">
-        <div class="section-content">
-            <h2>Signup now</h2>
-            <p>Sign up for the next Bomb Drop and Battle!</p>
-            <a href="#" class="button">Sign Up Now</a>
-        </div>
-    </section>
+.section {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
-    <section id="countdown" class="section">
-        <div class="section-content">
-            <h2>Countdown to next drop</h2>
-            <!-- Countdown timer goes here -->
-        </div>
-    </section>
+.section-content {
+    text-align: center;
+    color: #fff; /* Text color for better contrast */
+    padding: 20px;
+}
 
-    <section id="rules" class="section">
-        <div class="section-content">
-            <h2>Rules and How to Play</h2>
-            <!-- Rules and instructions go here -->
-        </div>
-    </section>
+.section:nth-child(odd) {
+    background-image: url('background1.png');
+}
 
-    <section id="bombvs" class="section">
-        <div class="section-content">
-            <h2>$BOMB vs $MAD</h2>
-            <!-- Information about $BOMB vs $MAD goes here -->
-        </div>
-    </section>
+.section:nth-child(even) {
+    background-image: url('background2.png');
+}
 
-    <footer>
-        <p>All rights Reserved MadBananaUnion</p>
-    </footer>
-</body>
-</html>
+/* Buttons */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
