@@ -13,7 +13,6 @@
 /* Backgrounds */
 body {
     background-color: #f2f2f2;
-    background-image: "bomb-game-screen.png";
 }
 
 /* Headers */
@@ -47,4 +46,3 @@ footer {
     clear: both;
     display: table;
 }
-
