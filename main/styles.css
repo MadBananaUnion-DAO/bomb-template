@@ -1,7 +1,7 @@
 body {
     background-color: #fff; /* Background color */
     font-family: Arial, sans-serif; /* Default font family */
-    color: #333; /* Default text color */
+    color: #ffffff; /* Default text color */
 }
 
 
@@ -12,8 +12,8 @@ body {
     color: #fff; /* Text color */
 }
 .footer {
-    background-color: #333; /* Background color */
-    padding: 20px; /* Padding around footer content */
+    background-color: #000000; /* Background color */
+    padding: 1px; /* Padding around footer content */
     text-align: center; /* Center-align text */
     color: #fff; /* Text color */
 }
