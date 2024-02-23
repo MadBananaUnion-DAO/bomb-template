@@ -18,6 +18,7 @@
     text-align: center;
     font-family: 'Survivant', sans-serif;
     background-color: rgba(255, 255, 255, 0.30);
+    background-color: #000000;
 }
 .header {
     padding: 20px; /* Example padding */
@@ -26,16 +27,20 @@
     font-size: 24px; /* Example font size */
     box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Example box shadow */
     background-image: url('madness-header.png');
+    background-color: #000000;
 }
     
 h1, h2 {
     color: #ffffff;
+    background-color: #000000;
 }
 h3, h4 {
     color: #ffffff; 
+    background-color: #000000;
 }
 h5, h6 {
     color: #ffffff;
+    background-color: #000000;
 }
 .footer {
     background-color: #000000; /* Example background color */
@@ -46,6 +51,7 @@ h5, h6 {
     font-size: 16px; /* Example font size */
     box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* Example box shadow */
     background-image: url('mad-head.png');
+    background-color: #000000;
 }
 .container section {
     padding: 20px;
@@ -53,6 +59,7 @@ h5, h6 {
     background-color: rgba(255, 255, 255, 0.6);
     background-image: url('');
     font-family: 'Survivant', sans-serif;
+    background-color: #000000;
 }
 .bomb-container {
     background-image: url('');
