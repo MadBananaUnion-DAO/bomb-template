@@ -4,7 +4,6 @@
     width: 100%; 
     max-width: 1260px; 
     background-color: #000000;
-    background-image: url('');
     background-size: cover; 
     background-position: center;
     text-align: center;
@@ -14,7 +13,6 @@
     max-width: 1260px; 
     margin: 0 auto; 
     padding: 0 20px; 
-    background-image: url(''); 
     background-size: cover; 
     background-position: center; 
     text-align: center;
@@ -26,7 +24,7 @@
     text-align: center; /* Example text alignment */
     font-family: 'Survivant', sans-serif;
     font-size: 24px; /* Example font size */
-    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Example box shadow */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Example box shadow */
     background-image: url('madness-header');
 }
     
