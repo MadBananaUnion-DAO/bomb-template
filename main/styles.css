@@ -25,7 +25,7 @@
     font-family: 'Survivant', sans-serif;
     font-size: 24px; /* Example font size */
     box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Example box shadow */
-    background-image: url('madness-header');
+    background-image: url('madness-header.png');
 }
     
 h1, h2 {
