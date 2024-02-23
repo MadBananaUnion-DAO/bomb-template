@@ -29,7 +29,7 @@ body {
     font-family: 'Survivant', sans-serif;
     font-size: 24px; /* Example font size */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Example box shadow */
-    background-image: url('yellow-madness-head.png');
+    background-image: url('mad-head.png');
 }
     
 h1, h2 {
@@ -52,7 +52,7 @@ h5, h6 {
     font-family: 'Survivant', sans-serif;
     font-size: 16px; /* Example font size */
     box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* Example box shadow */
-    background-image: url('bomb-buton-row.png');
+    background-image: url('bomb-button-row.png');
 }
 .container section {
     padding: 20px;
@@ -62,33 +62,33 @@ h5, h6 {
     font-family: 'Survivant', sans-serif;
 }
 .bomb-container {
-    background-image: url('bomb-button-battle.png');
+    background-image: url('bomb-battle.png');
     padding: 20px;
 }
 .block-container {
-    background-image: url('block-button-battle.png');
+    background-image: url('block-battle.png');
     padding: 20px;
 }
 
 .button {
-    background-color: yellow;
+    background-color: none;
     color: #ff00ff;
     padding: 10px 20px;
-    border: none;
+    border: 10px;
     border-radius: 40px;
     cursor: pointer; 
     font-family: 'Survivant', sans-serif;
 }
 .button:hover {
-    background-color: rgba(255, 255, 255, 0.30);
+    background-color: yellow;
 }
 .button.bomb {
     background-image: url('bomb.gif');
-    width: auto;
+    width: 100%
 }
 .button.block {
     background-image: url('block.gif');
-    width: auto;
+    width: 100%
 }
 .button.login {
     background-color: green;
