@@ -29,41 +29,42 @@ body {
 }
     
 h1, h2 {
-    color: #black;
-    background-color: #white;
+    color: #000000;
+    background-color: #ffffff;
 }
 h3, h4 {
-    color: #gray; 
-    background-color: #white;
+    color: #808080; 
+    background-color: #ffffff;
 }
 h5, h6 {
-    color: #black;
-    background-color: #purple;
+    color: #000000;
+    background-color: #800080;
 }
 
 .container footer {
-    color: white;
-    padding: 20px 20px 20px 20px;
+    color: #ffffff;
+    padding: 20px;
     background-color: rgba(255, 255, 255, 0.2);
 }
 .container section {
     padding: 20px;
     margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.6);
+}
 .bomb-container {
     background-image: url('bomb-battle-screen.png');
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
 }
 .block-container {
     background-image: url('block-battle-screen.png');
-    padding: 20px 20px 20px 20px;
+    padding: 20px;
 }
 
 .button {
     background-color: yellow;
     color: #ff00ff;
-    padding: 10px 10px 20px 20px;
-    border: 20px;
+    padding: 10px 20px;
+    border: none;
     border-radius: 40px;
     cursor: pointer; 
     font-family: 'Survivant', sans-serif;
@@ -71,17 +72,15 @@ h5, h6 {
 .button:hover {
     background-color: rgba(255, 255, 255, 0.30);
 }
-.button bomb {
+.button.bomb {
     background-image: url('bomb.gif');
-    padding: 5px 5px 20px 20px;
 }
-.button block {
+.button.block {
     background-image: url('block.gif');
-    padding: 5px 5px 20px 20px;
 }
-.button login {
+.button.login {
     background-color: green;
 }
-.button signup {
+.button.signup {
     background-color: yellow;
 }
