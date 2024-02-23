@@ -72,7 +72,7 @@ h5, h6 {
 }
 
 .button {
-    background-color: none;
+    background-color: yellow;
     color: #007DD0;
     padding: 10px 20px;
     border: 10px;
@@ -81,7 +81,7 @@ h5, h6 {
     font-family: 'Survivant', sans-serif;
 }
 .button:hover {
-    background-color: yellow;
+    background-color: red;
 }
 .button.bomb {
     background-image: url('bomb.gif');
