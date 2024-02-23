@@ -1,7 +1,7 @@
 body {
     background-color: #fff; /* Background color */
     font-family: Arial, sans-serif; /* Default font family */
-    color: #ffffff; /* Default text color */
+    color: #000000; /* Default text color */
     width: 100%; /* Set width to 100% */
     max-width: none; /* Remove the maximum width */
     background-image: url(''); /* Set the background image */
