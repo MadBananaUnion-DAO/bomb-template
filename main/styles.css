@@ -1,6 +1,6 @@
 body {
-    background-color: #fff; /* Background color */
-    font-family: Arial, sans-serif; /* Default font family */
+    background-color: #ffffff; /* Background color */
+    font-family: Arial, survivant; /* Default font family */
     color: #000000; /* Default text color */
     width: 100%; /* Set width to 100% */
     max-width: none; /* Remove the maximum width */
@@ -13,9 +13,9 @@ body {
 .container {
     width: 100%; /* Set width to 100% */
     max-width: none; /* Remove the maximum width */
-    margin: 0; /* Remove all margins */
-    padding: 0; /* Remove all padding */
-    background-image: url(''); /* Set the background image */
+    margin: 10; /* Remove all margins */
+    padding: 10; /* Remove all padding */
+    background-image: url('game-screen.png'); /* Set the background image */
     background-size: cover; /* Cover the entire container with the background image */
     background-position: center; /* Center the background image */
     text-align: center;
@@ -33,15 +33,14 @@ body {
 .container section {
     padding: 20px;
     margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.5); /* Light background color for readability */
-}
+    background-color: rgba(255, 255, 255, 0.3);
 
 
 .bomb-container {
-    background-image: url('battle-screen.png');
+    background-image: url('bomber-screen.png');
 }
 .block-container {
-    background-image: url('');
+    background-image: url('blocker-screen.png');
 }
 
 
