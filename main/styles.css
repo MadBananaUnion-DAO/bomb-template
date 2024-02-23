@@ -33,7 +33,7 @@ body {
 .container section {
     padding: 20px;
     margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.8); /* Light background color for readability */
+    background-color: rgba(255, 255, 255, 0.5); /* Light background color for readability */
 }
 
 
