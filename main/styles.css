@@ -21,13 +21,13 @@ body {
 }
 .container header {
     color: gray;
-    background-color: black;
+    background-color: #505050;
     padding: 20px 0;
 }
 .container footer {
     color: white;
-    padding: 20px 0;
-    background-color: black;
+    padding: 20px 20px 20px 20px;
+    background-color: #fded02;
 }
 .container section {
     padding: 20px;
@@ -53,4 +53,10 @@ body {
 }
 .button:hover {
     background-color: green; /* Darker background color on hover */
+}
+.button bomb {
+    
+}
+.button block {
+    
 }
