@@ -50,6 +50,7 @@ h5, h6 {
     padding: 20px;
     margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.6);
+    background-image: url('');
 }
 .bomb-container {
     background-image: url('bomb-battle-screen.png');
