@@ -9,6 +9,13 @@
     cursor: pointer;
     text-decoration: none;
 }
+#signup {
+    background-image: url('/game-screen.png');
+    background-size: cover; /* This will make sure the image covers the entire background */
+    background-attachment: fixed; /* This will make the background image fixed, so it won't scroll with the content */
+    color: #fff; /* Text color for better contrast */
+    padding: 50px; /* Adjust padding as needed */
+}
 
 /* Backgrounds */
 body {
