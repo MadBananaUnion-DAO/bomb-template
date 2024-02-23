@@ -1,6 +1,6 @@
 body {
     background-color: #ffffff; /* Background color */
-    font-family: Arial, survivant; /* Default font family */
+    font-family: 'Survivant', sans-serif;
     color: #000000; /* Default text color */
     width: 100%; /* Set width to 100% */
     max-width: none; /* Remove the maximum width */
@@ -10,14 +10,15 @@ body {
     text-align: center;
 
 .container {
-    width: 100%; /* Set width to 100% */
-    max-width: none; /* Remove the maximum width */
-    margin: 10; /* Remove all margins */
-    padding: 10; /* Remove all padding */
-    background-image: url('game-screen.png'); /* Set the background image */
-    background-size: cover; /* Cover the entire container with the background image */
-    background-position: center; /* Center the background image */
+    width: 80%; 
+    max-width: 800px; 
+    margin: 10; 
+    padding: 10; 
+    background-image: url('game-screen.png'); 
+    background-size: cover; 
+    background-position: center; 
     text-align: center;
+    font-family: 'Survivant', sans-serif;
 }
 .container header {
     color: gray;
@@ -32,7 +33,7 @@ body {
 .container section {
     padding: 20px;
     margin-bottom: 20px;
-    background-color: rgba(255, 255, 255, 0.3);
+    background-color: rgba(255, 255, 255, 0.45);
 
 
 .bomb-container {
@@ -44,19 +45,20 @@ body {
 
 
 .button {
-    background-color: yellow; /* Background color */
-    color: #000000; /* Text color */
-    padding: 10px 10px 20px 20px; /* Padding */
+    background-color: yellow;
+    color: #000000; 
+    padding: 10px 10px 20px 20px; 
     border: 20px; 
-    border-radius: 40px; /* Rounded corners */
-    cursor: pointer; /* Change cursor to pointer on hover */
+    border-radius: 40px; 
+    cursor: pointer; 
+    font-family: 'Survivant', sans-serif;
 }
 .button:hover {
     background-color: green; /* Darker background color on hover */
 }
 .button bomb {
-    
+    background-image: url('bomb.gif');
 }
 .button block {
-    
+    background-image: url('block.gif');
 }
