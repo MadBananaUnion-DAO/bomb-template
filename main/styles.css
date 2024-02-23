@@ -55,7 +55,6 @@ h5, h6 {
     background-color: rgba(255, 255, 255, 0.6);
     background-image: url('');
     font-family: 'Survivant', sans-serif;
-    background-image: url('');
 }
 .bomb-container {
     background-image: url('');
@@ -80,14 +79,11 @@ h5, h6 {
 }
 .button.bomb {
     background-image: url('bomb.gif');
-    background: cover;
-    width: 100%;
-    height: 100%;
+    image-align: center;
 }
 .button.block {
     background-image: url('block.gif');
-    width: 100%;
-    height: 100%;
+    image-align: center;
 }
 .button.login {
     background-color: green;
