@@ -11,13 +11,13 @@
 }
 #signup {
     background-image: url('/game-screen.png');
-    background-size: cover; /* This will make sure the image covers the entire background */
+    background-size: contain; /* Scale the background image to fit the entire element */
+    background-repeat: no-repeat; /* Prevent the background image from repeating */
+    background-position: center; /* Center the background image */
     background-attachment: fixed; /* This will make the background image fixed, so it won't scroll with the content */
     color: #fff; /* Text color for better contrast */
     padding: 50px; /* Adjust padding as needed */
 }
-
-/* Backgrounds */
 body {
     background-color: #f2f2f2;
 }
