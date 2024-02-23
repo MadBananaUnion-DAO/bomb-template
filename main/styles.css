@@ -14,7 +14,7 @@ body {
     max-width: 1260px; 
     margin: 0 auto; 
     padding: 0 20px; 
-    background-image: url('bomb-win.png'); 
+    background-image: url(''); 
     background-size: cover; 
     background-position: center; 
     text-align: center;
@@ -27,7 +27,7 @@ body {
     font-family: 'Survivant', sans-serif;
     font-size: 24px; /* Example font size */
     box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Example box shadow */
-    background-image: url('mad-head.png');
+    background-image: url('');
 }
     
 h1, h2 {
@@ -47,7 +47,7 @@ h5, h6 {
     font-family: 'Survivant', sans-serif;
     font-size: 16px; /* Example font size */
     box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* Example box shadow */
-    background-image: url('bomb-button-row.png');
+    background-image: url('');
 }
 .container section {
     padding: 20px;
@@ -55,14 +55,14 @@ h5, h6 {
     background-color: rgba(255, 255, 255, 0.6);
     background-image: url('');
     font-family: 'Survivant', sans-serif;
-    background-image: url('block-win.png');
+    background-image: url('');
 }
 .bomb-container {
-    background-image: url('bomb-battle.png');
+    background-image: url('');
     padding: 20px;
 }
 .block-container {
-    background-image: url('block-battle.png');
+    background-image: url('');
     padding: 20px;
 }
 
