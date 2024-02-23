@@ -2,6 +2,11 @@ body {
     background-color: #fff; /* Background color */
     font-family: Arial, sans-serif; /* Default font family */
     color: #ffffff; /* Default text color */
+    width: 100%; /* Set width to 100% */
+    max-width: none; /* Remove the maximum width */
+    background-image: url('battle-screen.png'); /* Set the background image */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
 }
 
 
