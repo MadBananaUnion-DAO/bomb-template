@@ -31,11 +31,13 @@ body {
     background-color: #0056b3; /* Darker background color on hover */
 }
 
-
 .container {
     width: 100%; /* Set width to 100% */
     max-width: none; /* Remove the maximum width */
     margin: 0; /* Remove all margins */
     padding: 0; /* Remove all padding */
+    background-image: url('game-screen.png'); /* Set the background image */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
 }
 
