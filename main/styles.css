@@ -8,6 +8,32 @@ body {
     background-size: cover; /* Cover the entire container with the background image */
     background-position: center; /* Center the background image */
 }
+
+
+.container {
+    width: 100%; /* Set width to 100% */
+    max-width: none; /* Remove the maximum width */
+    margin: 0; /* Remove all margins */
+    padding: 0; /* Remove all padding */
+    background-image: url('game-screen.png'); /* Set the background image */
+    background-size: cover; /* Cover the entire container with the background image */
+    background-position: center; /* Center the background image */
+}
+.container header {
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+.container footer {
+    text-align: center;
+    color: white;
+    padding: 20px 0;
+}
+.container section {
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Light background color for readability */
+}
 .bomb-container {
     background-image: url('bomb-wins.png');
 }
@@ -15,20 +41,6 @@ body {
     background-image: url('block-battle.png');
 }
 
-
-
-.header {
-    background-color: #333; /* Background color */
-    padding: 20px; /* Padding around header content */
-    text-align: center; /* Center-align text */
-    color: #fff; /* Text color */
-}
-.footer {
-    background-color: #000000; /* Background color */
-    padding: 1px; /* Padding around footer content */
-    text-align: center; /* Center-align text */
-    color: #fff; /* Text color */
-}
 
 
 .button {
@@ -42,14 +54,3 @@ body {
 .button:hover {
     background-color: #0056b3; /* Darker background color on hover */
 }
-
-.container {
-    width: 100%; /* Set width to 100% */
-    max-width: none; /* Remove the maximum width */
-    margin: 0; /* Remove all margins */
-    padding: 0; /* Remove all padding */
-    background-image: url('game-screen.png'); /* Set the background image */
-    background-size: cover; /* Cover the entire container with the background image */
-    background-position: center; /* Center the background image */
-}
-
