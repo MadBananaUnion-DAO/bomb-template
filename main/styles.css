@@ -3,17 +3,17 @@ body {
     color: #000000; 
     width: 80%; 
     max-width: 850px; 
+    background-color: rgba(255, 255, 255, 0.10);
     background-image: url('game-screen.png');
     background-size: cover; 
     background-position: center;
     text-align: center;
-    background-color: rgba(255, 255, 255, 0.10);
 }
 .container {
     width: 80%; 
-    max-width: 900px; 
-    margin: 10; 
-    padding: 10; 
+    max-width: 1000px; 
+    margin: 0 auto; 
+    padding: 0 20px; 
     background-image: url('game-screen.png'); 
     background-size: cover; 
     background-position: center; 
@@ -34,11 +34,11 @@ h1, h2 {
 }
 h3, h4 {
     color: #gray; 
-    background-color: #black;
+    background-color: #white;
 }
 h5, h6 {
-    color: #white;
-    background-color: #black;
+    color: #black;
+    background-color: #purple;
 }
 
 .container footer {
