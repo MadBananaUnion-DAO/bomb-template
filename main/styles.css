@@ -1,38 +1,41 @@
-/* General styles */
 body {
-    margin: 0;
-    padding: 0;
+    background-color: #fff; /* Background color */
+    font-family: Arial, sans-serif; /* Default font family */
+    color: #333; /* Default text color */
 }
 
-.section {
-    height: 100vh; /* Full viewport height */
-    display: flex;
-    justify-content: center;
-    align-items: center;
+
+.header {
+    background-color: #333; /* Background color */
+    padding: 20px; /* Padding around header content */
+    text-align: center; /* Center-align text */
+    color: #fff; /* Text color */
+}
+.footer {
+    background-color: #333; /* Background color */
+    padding: 20px; /* Padding around footer content */
+    text-align: center; /* Center-align text */
+    color: #fff; /* Text color */
 }
 
-.section-content {
-    text-align: center;
-    color: #fff; /* Text color for better contrast */
-    padding: 20px;
-}
 
-.section:nth-child(odd) {
-    background-image: url('background1.png');
-}
-
-.section:nth-child(even) {
-    background-image: url('background2.png');
-}
-
-/* Buttons */
 .button {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #3498db;
-    color: #fff;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    text-decoration: none;
+    background-color: #007bff; /* Background color */
+    color: #fff; /* Text color */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Change cursor to pointer on hover */
 }
+.button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+
+
+.container {
+    width: 100%; /* Set width to 100% */
+    max-width: none; /* Remove the maximum width */
+    margin: 0; /* Remove all margins */
+    padding: 0; /* Remove all padding */
+}
+
