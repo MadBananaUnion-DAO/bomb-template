@@ -4,7 +4,7 @@ body {
     color: #000000; /* Default text color */
     width: 100%; /* Set width to 100% */
     max-width: none; /* Remove the maximum width */
-    background-image: url(''); /* Set the background image */
+    background-image: url('game-screen.png'); /* Set the background image */
     background-size: cover; /* Cover the entire container with the background image */
     background-position: center; /* Center the background image */
     text-align: center; /* Center text */
