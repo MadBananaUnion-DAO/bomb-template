@@ -21,11 +21,14 @@ body {
     font-family: 'Survivant', sans-serif;
     background-color: rgba(255, 255, 255, 0.30);
 }
-.container header {
-    color: gray;
-    background-color: #505050;
-    padding: 20px 0;
-    background-color: rgba(255, 255, 255, 0.8);
+.header {
+    background-color: #000000; /* Example background color */
+    color: #ffffff; /* Example text color */
+    padding: 20px; /* Example padding */
+    text-align: center; /* Example text alignment */
+    font-family: 'Survivant', sans-serif;
+    font-size: 24px; /* Example font size */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Example box shadow */
 }
     
 h1, h2 {
@@ -40,17 +43,21 @@ h5, h6 {
     color: #000000;
     background-color: #800080;
 }
-
-.container footer {
-    color: #ffffff;
-    padding: 20px;
-    background-color: rgba(255, 255, 255, 0.2);
+.footer {
+    background-color: #333000; /* Example background color */
+    color: #fff000; /* Example text color */
+    padding: 20px; /* Example padding */
+    text-align: center; /* Example text alignment */
+    font-family: 'Survivant', sans-serif;
+    font-size: 16px; /* Example font size */
+    box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* Example box shadow */
 }
 .container section {
     padding: 20px;
     margin-bottom: 20px;
     background-color: rgba(255, 255, 255, 0.6);
     background-image: url('');
+    font-family: 'Survivant', sans-serif;
 }
 .bomb-container {
     background-image: url('bomb-battle-screen.png');
