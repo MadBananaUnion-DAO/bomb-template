@@ -1,9 +1,9 @@
-.body { 
+.body {
+    background-color: black;
     font-family: 'Survivant', sans-serif;
     color: #ffffff; 
     width: 100%; 
     max-width: 1260px; 
-    background-color: #000000;
     background-size: cover; 
     background-position: center;
     text-align: center;
@@ -18,7 +18,7 @@
     text-align: center;
     font-family: 'Survivant', sans-serif;
     background-color: rgba(255, 255, 255, 0.30);
-    background-color: #000000;
+    background-color: black;
 }
 .header {
     padding: 20px; /* Example padding */
@@ -27,20 +27,20 @@
     font-size: 24px; /* Example font size */
     box-shadow: 0 2px 4px rgba(0,0,0,0.5); /* Example box shadow */
     background-image: url('madness-header.gif');
-    background-color: #000000;
+    background-color: black;
 }
     
 h1, h2 {
     color: #ffffff;
-    background-color: #000000;
+    background-color: black;
 }
 h3, h4 {
     color: #ffffff; 
-    background-color: #000000;
+    background-color: black;
 }
 h5, h6 {
     color: #ffffff;
-    background-color: #000000;
+    background-color: black;
 }
 .footer {
     background-color: #000000; /* Example background color */
@@ -51,7 +51,7 @@ h5, h6 {
     font-size: 16px; /* Example font size */
     box-shadow: 0 -2px 4px rgba(0,0,0,0.1); /* Example box shadow */
     background-image: url('mad-head.png');
-    background-color: #000000;
+    background-color: black;
 }
 .container section {
     padding: 20px;
@@ -59,7 +59,7 @@ h5, h6 {
     background-color: rgba(255, 255, 255, 0.6);
     background-image: url('');
     font-family: 'Survivant', sans-serif;
-    background-color: #000000;
+    background-color: black;
 }
 .bomb-container {
     background-image: url('');
@@ -80,7 +80,7 @@ h5, h6 {
     font-family: 'Survivant', sans-serif;
 }
 .button:hover {
-    background-color: red;
+    background-color: orange;
 }
 .button.bomb {
     background-image: url('bomb.gif');
