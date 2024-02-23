@@ -22,8 +22,6 @@ body {
     background-color: rgba(255, 255, 255, 0.30);
 }
 .header {
-    background-color: #000000; /* Example background color */
-    color: #ffffff; /* Example text color */
     padding: 20px; /* Example padding */
     text-align: center; /* Example text alignment */
     font-family: 'Survivant', sans-serif;
@@ -34,18 +32,15 @@ body {
     
 h1, h2 {
     color: #000000;
-    background-color: #ffffff;
 }
 h3, h4 {
     color: #808080; 
-    background-color: #ffffff;
 }
 h5, h6 {
     color: #000000;
-    background-color: #800080;
 }
 .footer {
-    background-color: #333000; /* Example background color */
+    background-color: #000000; /* Example background color */
     color: #fff000; /* Example text color */
     padding: 20px; /* Example padding */
     text-align: center; /* Example text alignment */
