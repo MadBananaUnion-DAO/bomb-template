@@ -31,17 +31,17 @@ body {
 }
     
 h1, h2 {
-    color: #000000;
+    color: #ffffff;
 }
 h3, h4 {
-    color: #808080; 
+    color: #ffffff; 
 }
 h5, h6 {
-    color: #000000;
+    color: #ffffff;
 }
 .footer {
     background-color: #000000; /* Example background color */
-    color: #fff000; /* Example text color */
+    color: #ffffff; /* Example text color */
     padding: 20px; /* Example padding */
     text-align: center; /* Example text alignment */
     font-family: 'Survivant', sans-serif;
@@ -68,7 +68,7 @@ h5, h6 {
 
 .button {
     background-color: yellow;
-    color: #007DD0;
+    color: #000000;
     padding: 10px 20px;
     border: 10px;
     border-radius: 40px;
@@ -80,6 +80,7 @@ h5, h6 {
 }
 .button.bomb {
     background-image: url('bomb.gif');
+    background: cover;
     width: 100%;
     height: 100%;
 }
