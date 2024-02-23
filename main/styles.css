@@ -18,19 +18,17 @@ body {
     background-image: url(''); /* Set the background image */
     background-size: cover; /* Cover the entire container with the background image */
     background-position: center; /* Center the background image */
-}
-.container header,
-.container footer,
-.container section {
-    text-align: center; /* Center text */
+    text-align: center;
 }
 .container header {
     color: gray;
+    background-color: black;
     padding: 20px 0;
 }
 .container footer {
     color: white;
     padding: 20px 0;
+    background-color: black;
 }
 .container section {
     padding: 20px;
