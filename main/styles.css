@@ -1,8 +1,8 @@
 body { 
     font-family: 'Survivant', sans-serif;
     color: #000000; 
-    width: 80%; 
-    max-width: 850px; 
+    width: 100%; 
+    max-width: 1260px; 
     background-color: #000000;
     background-image: url('');
     background-size: cover; 
@@ -10,8 +10,8 @@ body {
     text-align: center;
 }
 .container {
-    width: 80%; 
-    max-width: 1000px; 
+    width: 100%; 
+    max-width: 1260px; 
     margin: 0 auto; 
     padding: 0 20px; 
     background-image: url('bomb-win.png'); 
