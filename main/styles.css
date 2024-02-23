@@ -25,7 +25,7 @@ body {
     text-align: center; /* Center text */
 }
 .container header {
-    color: white;
+    color: gray;
     padding: 20px 0;
 }
 .container footer {
