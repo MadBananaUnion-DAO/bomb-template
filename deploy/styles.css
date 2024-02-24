@@ -1,32 +1,55 @@
 body {
-      background-color: black;
+    background-color: #f2f2f2; /* Background color for the entire page */
+    margin: 0; /* Remove default margin */
+    padding: 0; /* Remove default padding */
 }
-/* battle-load.png */
+
+/* Styling for different game stages or elements */
+
+/* Loading screen */
 .battle-load {
     background-image: url('battle-load.png');
+    background-size: cover; /* Ensure the background image covers the entire element */
+    height: 100vh; /* Make the element take up the full viewport height */
+    /* Add additional styles as needed */
 }
 
-/* battle-start.png */
+/* Start of battle screen */
 .battle-start {
     background-image: url('battle-start.png');
+    background-size: cover;
+    height: 100vh;
+    /* Add additional styles as needed */
 }
 
-/* block-battle.png */
+/* Block battle screen */
 .block-battle {
     background-image: url('block-battle.png');
+    background-size: cover;
+    height: 100vh;
+    /* Add additional styles as needed */
 }
 
-/* block-final.png */
+/* Final block screen */
 .block-final {
     background-image: url('block-final.png');
+    background-size: cover;
+    height: 100vh;
+    /* Add additional styles as needed */
 }
 
-/* bomb-battle.png */
+/* Bomb battle screen */
 .bomb-battle {
     background-image: url('bomb-battle.png');
+    background-size: cover;
+    height: 100vh;
+    /* Add additional styles as needed */
 }
 
-/* bomb-final.png */
+/* Final bomb screen */
 .bomb-final {
     background-image: url('bomb-final.png');
+    background-size: cover;
+    height: 100vh;
+    /* Add additional styles as needed */
 }
