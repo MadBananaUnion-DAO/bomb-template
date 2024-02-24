@@ -2,7 +2,7 @@ body {
     background-color: #f2f2f2; /* Background color for the entire page */
     margin: 0; /* Remove default margin */
     padding: 0; /* Remove default padding */\
-    display: flex;
+    background: cover;
     justify-content: center;
     align-items: center;
     height: 100vh;
