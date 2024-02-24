@@ -1,9 +1,32 @@
-      div {
-      height: 300px;
-      width: 300px;
-      display:grid,
-      grid-template-rows:repeat(10, 1fr),
-      grid-template-columns:repeat(10, 1fr),
-      row-gap:1px,
-      column-gap:1px
-    }
+body {
+      background-color: black;
+}
+/* battle-load.png */
+.battle-load {
+    background-image: url('battle-load.png');
+}
+
+/* battle-start.png */
+.battle-start {
+    background-image: url('battle-start.png');
+}
+
+/* block-battle.png */
+.block-battle {
+    background-image: url('block-battle.png');
+}
+
+/* block-final.png */
+.block-final {
+    background-image: url('block-final.png');
+}
+
+/* bomb-battle.png */
+.bomb-battle {
+    background-image: url('bomb-battle.png');
+}
+
+/* bomb-final.png */
+.bomb-final {
+    background-image: url('bomb-final.png');
+}
