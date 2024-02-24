@@ -11,6 +11,7 @@ body {
     background-image: url('battle-load.png');
     background-size: cover; /* Ensure the background image covers the entire element */
     height: 100vh; /* Make the element take up the full viewport height */
+    width: 100%;
     /* Add additional styles as needed */
 }
 
